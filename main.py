@@ -1,7 +1,6 @@
 import pygame
 import random
 from pygame.locals import *
-import os
 
 class Button():
     def __init__(self, x: int, y: int, text: str, color: tuple):
@@ -18,11 +17,11 @@ class Button():
 
     def draw(self):
         action = False
-
-		#get mouse pos
+	    
+	#get mouse pos
         pos = pygame.mouse.get_pos()
 
-		#check mouseover and clicked conditions
+	#check mouseover and clicked conditions
         if self.button.collidepoint(pos):
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
                 action = True
