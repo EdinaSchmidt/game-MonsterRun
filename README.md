@@ -22,4 +22,4 @@ Main Features of Monster Run:
 - Players win by escaping the level through one of the doors
 - The final score is based on the total coins collected
 
-![MonsterRun](https://github.com/user-attachments/assets/f2eb6bda-b519-4ef7-bc62-f5342b6974c7)
+<img src="https://github.com/user-attachments/assets/f2eb6bda-b519-4ef7-bc62-f5342b6974c7" width="600">
