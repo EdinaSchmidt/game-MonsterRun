@@ -23,3 +23,4 @@ Main Features of Monster Run:
 - The final score is based on the total coins collected
 
   
+![MonsterRun](https://github.com/[EdinaSchmidt]/[game-MonsterRun]/blob/[main]/MonsterRun.png?raw=true)
