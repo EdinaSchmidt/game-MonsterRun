@@ -2,6 +2,7 @@ import pygame
 import random
 from pygame.locals import *
 
+
 class Button():
     def __init__(self, x: int, y: int, text: str, color: tuple):
         self.text = text
@@ -17,11 +18,11 @@ class Button():
 
     def draw(self):
         action = False
-	    
-	#get mouse pos
+
+		#get mouse pos
         pos = pygame.mouse.get_pos()
 
-	#check mouseover and clicked conditions
+		#check mouseover and clicked conditions
         if self.button.collidepoint(pos):
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
                 action = True
@@ -570,6 +571,8 @@ while run:
                 if action == "restart":
                     robot.reset(screen_width // 2, screen_height // 2)
                     monster_group.empty()
+                    bomb_group.empty()
+                    blood_group.empty()
                     loose = 0
                 elif action == "exit":
                     run = False
