@@ -22,6 +22,6 @@ For the final task, I developed a small game. Due to peer review requirements, o
 - Players win by escaping the level through one of the doors
 - The final score is based on the total coins collected
 
-The game can be downloaded from here: https://drive.google.com/drive/folders/1ihqFl1SzRvVGRoJGqbQkOQ-uVxGNYRAr?usp=drive_link
+The game can be downloaded from [here](https://drive.google.com/drive/folders/1ihqFl1SzRvVGRoJGqbQkOQ-uVxGNYRAr?usp=drive_link).
 
 <img src="https://github.com/user-attachments/assets/f2eb6bda-b519-4ef7-bc62-f5342b6974c7" width="600">
